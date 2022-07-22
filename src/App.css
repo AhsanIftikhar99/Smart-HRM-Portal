@@ -149,25 +149,6 @@ html{
    margin-top: 1.5rem;
 }
 
-@tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
-@tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-
-.ease-in-animation {
-  @apply transition duration-500 ease-in-out;
-}
-
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
-
-/* Your own custom utilities */
 
 @media (min-width: 1024px) {
   .btn-menu {
@@ -219,6 +200,9 @@ html{
   padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
   min-height:400px;
+}
+.TextField-without-border-radius fieldset {
+  border-radius: 0;
 }
 
 

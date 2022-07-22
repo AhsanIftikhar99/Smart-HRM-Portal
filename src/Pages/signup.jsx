@@ -10,7 +10,8 @@ export default function SignupForm (){
 
     const [value, setValue] = React.useState(null);
     return(
-        <div id="loginform">
+      <div style={{backgroundImage: `url(${require("../assets/wall.jpg")})`,backgroundSize: 'cover',width:"100%",height:"80%",display: 'flex',flex: '1'}}>
+        <div  id="loginform">
           <FormHeader title="Smart HRM Signup" />
           <div style={{marginTop:"1rem"}}>
             <FormInput description="First Name" placeholder="Enter your First Name" type="text" />
@@ -39,6 +40,7 @@ export default function SignupForm (){
             <FormButton title="Signup"/>
           </div>  
         </div>
+      </div>  
     )
 }
 

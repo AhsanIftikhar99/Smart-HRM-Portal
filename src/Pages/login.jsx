@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from  "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function LoginForm (){
 
@@ -22,7 +22,6 @@ function LoginForm (){
     console.log(event.target.value);
     setselect(event.target.value)
   }
-  
   
   const OtherMethods = props => (
     <div id="alternativeLogin">
@@ -48,11 +47,11 @@ function LoginForm (){
            <button  onClick={routeChange1}>Log In</button>
          </div>
       </div>
-     );
+    );
   
 
   return(
-      <div style={{backgroundImage: `url(${require("../assets/wall.jpg")})`,backgroundSize: 'cover',width:"100%",height:"100%",height: '120vh',display: 'flex',flex: '1'}}>
+      <div style={{backgroundImage: `url(${require("../assets/wall.jpg")})`,backgroundSize: 'cover',width:"100%",height:"80%",display: 'flex',flex: '1'}}>
       <div id="loginform">
         <FormHeader title="Smart HRM Login" />
         <Form />   

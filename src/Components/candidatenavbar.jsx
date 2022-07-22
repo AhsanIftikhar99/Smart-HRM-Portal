@@ -61,7 +61,7 @@ const CandidateAppBar = () => {
             variant="h6"
             noWrap
             component="a"
-            href="/homepage"
+            href="/candidate-homepage"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },

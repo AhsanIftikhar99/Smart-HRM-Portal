@@ -75,8 +75,8 @@ export default function JobAdd() {
         noValidate
         autoComplete="off"
         >
-        <div>
-            <TextField id="filled-basic" label="Study Qualification" variant="filled" style={{marginLeft:'120px',width:"37%"}}/>
+        <div className="TextField-without-border-radius" style={{borderRadius:'50px'}}>
+            <TextField id="filled-basic"  label="Study Qualification" variant="filled" style={{marginLeft:'120px',width:"37%",borderRadius:0}}/>
         </div>
         <div>
             <TextField id="filled-basic" label="Experience" variant="filled" style={{marginLeft:'120px',width:"37%"}}/>
@@ -87,7 +87,7 @@ export default function JobAdd() {
         <div>
             <TextField id="filled-basic" label="Company's Name" variant="filled" style={{marginLeft:'120px',width:"37%"}}/>
         </div>
-        <div>
+        <div >
             <TextField id="filled-basic" label="Salary Upto" variant="filled" style={{marginLeft:'120px',width:"37%"}}/>
         </div>
         <div>
